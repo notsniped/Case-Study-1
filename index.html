@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Case Study - 01</title>
+        <meta charset="UTF-8">
+        <link rel="stylesheet" type="text/css" href="looks.css">
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+        <link rel="shortcut icon" href="icon01.png">
+  		<script src="https://cdnjs.cloudflare.com/ajax/libs/webcamjs/1.0.26/webcam.js"></script>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    </head>
+    <body>
+        <center>
+            <div id="top-info-bar">
+                <h2>CASE STUDY <img src="icon01.png"></h2>
+            </div>
+            <br><br>
+            <div class="container">
+                <div id="card-1" class="element-card">
+                    <label>1) Test Image Placeholder:</label>
+                    <br>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/eb/Ash_Tree_-_geograph.org.uk_-_590710.jpg/220px-Ash_Tree_-_geograph.org.uk_-_590710.jpg" title="Image of a tree from Wikipedia" class="img-responsive">
+                    <br>
+                    <span>What MobileNet sees: </span>&nbsp;<label id="result-mobilenet"></label>
+                    <br>
+                    <span>What Microsoft Azure sees: </span>&nbsp;<label id="result-azure"></label> 
+                    <div id="results" class="bob3">
+                        <p>From these results, <span id="accuracy-target"><b>we don't know who</b></span> is more accurate.</p>
+                    </div>
+                </div>
+            </div>
+            <br><br><br><br><br>
+            <div id="copyright-footer">
+                <label>Developed by Dhruv Bhat with the help of WhiteHat Jr&copy; to make this project come to life.</label>
+            </div>
+        </center>
+    </body>
+    <script src="runtime.js"></script>
+</html>
