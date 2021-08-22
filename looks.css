@@ -1,12 +1,10 @@
-html {
-    height: 100%;
-}
 hr {
     background-color: black;
 }
 body {
     font-size: 15px;
     height: 100%;
+    margin: 0px;
     background: linear-gradient(lightblue 0%, black 100%);
     background-repeat: no-repeat;
 }
@@ -28,7 +26,7 @@ body {
 .element-card img {
     border-radius: 4px;
 }
-#results {
+.results {
     border-radius: 9.5px;
     background: white;
     margin-left: 10px;
@@ -38,10 +36,8 @@ body {
     font-size: 17px;
 }
 #copyright-footer {
-    color: black;
-    font-size: 12px;
-    background: white;
-    border-color: darkgray;
+    color: white;
+    font-size: 15px;
     border-width: 1px;
     margin: 0px;
     padding: 1px;
